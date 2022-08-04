@@ -48,3 +48,18 @@ function getLastName (nameArray) {
 
 console.log(getLastName(["Charlie", "Rob", "Andy"]));
 console.log(getLastName(["Ash", "Stu"]));
+
+//5
+
+function allNumbersPositive (numberArray) {
+  let isAllPositive = true;
+  for (let i = 0; i < numberArray.length; i++){
+    if(numberArray[i] < 0) {
+      isAllPositive = false;
+    }
+  }
+  return isAllPositive;
+}
+
+console.log(allNumbersPositive([2,4,5]));
+console.log(allNumbersPositive([-5,4,6]));
