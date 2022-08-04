@@ -39,4 +39,11 @@ function getLargestNumber(number1, number2, number3) {
 }
 
 console.log(getLargestNumber(2, 1, 4));
-console.log(getLargestNumber(6, 2, 3));
+console.log(getLargestNumber(6, 2, 3)); //4
+
+function getLastName(nameArray) {
+  return nameArray[nameArray.length - 1];
+}
+
+console.log(getLastName(["Charlie", "Rob", "Andy"]));
+console.log(getLastName(["Ash", "Stu"]));
