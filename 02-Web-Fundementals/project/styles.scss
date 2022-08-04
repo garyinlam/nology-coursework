@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto&family=Varela+Round&display=swap');
+
+$font-body: 'Roboto', sans-serif;
+$font-title: 'Varela Round', monospace;
+$font-logo: 'Mouse Memoirs', fantasy;
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $font-body;
 }
 
 a:link,
