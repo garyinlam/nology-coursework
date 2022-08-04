@@ -35,3 +35,13 @@ header {
   border-radius: 10px;
   margin: 10px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    font-family: $font-logo;
+    font-size: 120px;
+  }
+}

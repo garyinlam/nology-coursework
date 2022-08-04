@@ -28,3 +28,13 @@ header {
   border-radius: 10px;
   margin: 10px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo a {
+  font-family: "Mouse Memoirs", fantasy;
+  font-size: 120px;
+}
