@@ -45,3 +45,14 @@ header {
     font-size: 120px;
   }
 }
+
+.button {
+  background-color: $colour-primary;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin: 10px;
+}
