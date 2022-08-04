@@ -102,3 +102,12 @@ main > * {
 .italics {
   font-style: italic;
 }
+
+footer {
+  display: flex;
+  background-color: #fffcdd;
+}
+footer a {
+  margin: 5px;
+  font-size: 20px;
+}

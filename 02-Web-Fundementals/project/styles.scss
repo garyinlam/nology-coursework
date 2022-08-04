@@ -110,3 +110,12 @@ main > * {
 .italics {
   font-style: italic;
 }
+
+footer {
+  display: flex;
+  background-color: #fffcdd;
+  a {
+    margin: 5px;
+    font-size: 20px;
+  }
+}
