@@ -3,16 +3,24 @@
 $font-body: 'Roboto', sans-serif;
 $font-title: 'Varela Round', monospace;
 $font-logo: 'Mouse Memoirs', fantasy;
-
+$colour-primary: #394166;
+$colour-secondary: #1cb8f1;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: $font-body;
+  color: $colour-primary;
 }
 
 a:link,
 a:visited{
   text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
