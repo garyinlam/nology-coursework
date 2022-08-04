@@ -22,4 +22,21 @@ function convertDaysToAge(days) {
 }
 
 console.log(convertDaysToAge(3650));
-console.log(convertDaysToAge(6570));
+console.log(convertDaysToAge(6570)); //3
+
+function getLargestNumber(number1, number2, number3) {
+  var largest;
+
+  if (number1 > number2 && number1 > number3) {
+    largest = number1;
+  } else if (number2 > number1 && number2 > number3) {
+    largest = number2;
+  } else if (number3 > number1 && number3 > number2) {
+    largest = number3;
+  }
+
+  return largest;
+}
+
+console.log(getLargestNumber(2, 1, 4));
+console.log(getLargestNumber(6, 2, 3));
