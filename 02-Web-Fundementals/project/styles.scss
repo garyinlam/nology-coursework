@@ -36,6 +36,12 @@ header {
   margin: 10px;
 }
 
+.login:hover {
+  background-color: $colour-primary;
+  color: white;
+  transition: ease 0.3s;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -56,6 +62,13 @@ header {
   border-radius: 10px;
   margin: 10px;
   max-width: 200px;
+  border: $colour-primary solid 2px;
+}
+
+.button:hover {
+  background-color: white;
+  color: $colour-primary;
+  transition: ease 0.3s;
 }
 
 main {
