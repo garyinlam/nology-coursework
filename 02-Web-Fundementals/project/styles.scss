@@ -46,6 +46,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
   a {
     font-family: $font-logo;
     font-size: 120px;
@@ -77,6 +78,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
   h1 {
     font-family: $font-title;
     color: $colour-secondary;
@@ -130,5 +132,26 @@ footer {
   a {
     margin: 5px;
     font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    
+  }
+  .point {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    h4 {
+      margin: 20px;
+    }
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
   }
 }
