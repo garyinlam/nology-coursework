@@ -1,11 +1,14 @@
-//1
+"use strict";
 
-function isNumberPositive (number) {
-  let isPositive;
+//1
+function isNumberPositive(number) {
+  var isPositive;
+
   if (number >= 0) {
     isPositive = true;
   } else {
     isPositive = false;
   }
+
   return isPositive;
 }
